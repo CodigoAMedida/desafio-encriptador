@@ -1,0 +1,68 @@
+/*Hoja de estilo para el desencriptador*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root {
+    --color-primario: #1D3461;
+    --color-secundario: #d3d6db;
+    --color-terciario: #376996;
+    --color-cuarto: #6290C8;
+    --color-hover: #bdcadb;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    box-sizing: border-box;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 0.6rem;
+    font-family: var(--fuente-krona);
+}
+
+.footer{
+    color:var(--color-hover);
+    background-color: var(--color-primario);
+    padding: 24px;
+    text-align: left;
+    font-family: var(--fuente-montserrat);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.container__boton{
+    gap: 6px;
+    border: 2px solid var(--color-terciario);
+    background-color: var(--color-terciario);
+    color: var(--color-hover);
+    width: 16%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    font-weight: 400;
+    font
+    padding: 1% 0;
+    text-decoration: none;
+    font-family: var(--fuente-montserrat);
+}
+
+.caja_de_texto{
+    gap: 6px;
+    border: 2px solid var(--color-terciario);
+    background-color: var(--color-primario);
+    color:var(--color-cuarto);
+    text-align: left;
+    font-family: var(--fuente-montserrat);
+    font-size: 142%;
+    font-weight: 400;
+}

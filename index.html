@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafío Encriptador-Decriptador</title>
+        <!--Hoja de estilos-->
+        <link rel="stylesheet" href=".\styles\style.css">
+        <title>Encriptador / Desencriptador</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="mensaje1">Ingrese un texto a encriptar</h1>
+        </header>
+        <main>
+            <div class="body__text__boxes">
+                <textarea class="caja_de_texto" name="texto__a__procesar" rows="10" cols="50" spellcheck="false" id="texto__encriptable">texto a encriptar. minusculas y sin acentos o caracteres especiales</textarea>
+                <textarea class="caja_de_texto" name="texto__procesado" rows="10" cols="50" id="texto__encriptado" disabled></textarea>
+            </div>
+            <div class="body__botones__encripcion">
+                <button onclick="Encriptar();" class="container__boton">Encripta</button>
+                <button onclick="Desencriptar();" class="container__boton">Decripta</button>
+                <button onclick="CopiarAlClipboard();" class="container__boton">Copia</button>
+            </div>
+            <!-- Fuente Javascript -->
+            <script src="app.js"></script>
+        </main>
+        <footer class="footer">
+            <p>Desarrollado por Fernando A. Katz (2024)</p>
+        </footer>
+    
+    </body>
+</html>
